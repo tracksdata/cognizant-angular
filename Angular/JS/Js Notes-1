@@ -1,0 +1,41 @@
+Issues with JS
+-------------------
+
+1. JS having .js engines differently in different browsers
+2. too much code for simple business operations
+3. no bulild in functions support for utility operations
+4. Can not directly communcate with web servers/ db servers
+5. depends upon tools like Ajax for async calls
+6. DOM  manupulations fifferent from browser to browser.
+
+Solution
+-----------
+1. jQury 
+    -> best for dom manipulations across the browsers with same impl
+
+Issues
+--------
+1. Its not a framework
+2. No arch models like MVC etc
+
+So that we need to move towords UI based frameworks
+
+    -> Angular
+    -> React
+
+Advantages
+------------
+    -> Dom manipulations are very easy
+    -> Follows MVC based programing arch
+    -> Standards from the framework specs
+    -> maintenace and extension of applications are easy
+
+--------------------------------------------------------------------
+
+
+
+
+
+
+
+
