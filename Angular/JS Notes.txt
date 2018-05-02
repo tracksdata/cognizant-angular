@@ -1,0 +1,81 @@
+Ref : 
+
+---------------------------------------------------------------------------
+.js-intro
+
+-> scripting langauge for web pages in browser-envi (client-side)
+-> server-side programing lang on Node.js (Javascript runtime)
+-> Hybrid Mobile Native applications
+
+--------------------------------------------------------------------------
+
+.js-features
+
+-> Functional programing langauge and Opbject oriented programing langauge
+-> dynamic typed langauge
+-> single threaded langauge, but can execute concurent actions.
+-> all IO operations in Javascript langauge are non-blocking
+
+---------------------------------------------------------------------------
+
+==> Javascript langauge syntax and core APIs are based on 'ECMAScript spec'
+
+    - ECMAScript-2015 or 2016 or ES6 (Widly used)
+    - ES7
+---------------------------------------------------------------------------
+
+" Hello World"
+
+----------------------------------------------------------------------------
+
+How to run Javascript program?
+
+    ==> we need .js runtime/engine
+
+    browser-envi
+        
+        -> chrome   : V8 Engine (c++)
+        -> firefox  : rhino (java)
+        -> IE/Edge  : chakra
+        -> safari   : nitro
+        ...........
+    
+    Other envi
+
+        -> Node.js  : V8
+        -> JVM      : nashorm
+        .......
+
+        -------------------------------------------------------------------
+
+        Js-topics
+        ----------
+
+        1. data-types
+        2. execution-context /scopes
+        3. Functional programing and Object oriented programing langauge in java scripting
+        4. 'this' keyword / context's owener
+        5. using prototypes
+        6. ES6 - New syntax
+        7. Es-6 Modules (how to organoze java script code)
+        8. Concurency Model with Event-loop (callbacks, non-blocking io,...)
+        9. Async APIs (Promise API, RxJS)
+        10. Typescript langauge
+        
+        --------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
