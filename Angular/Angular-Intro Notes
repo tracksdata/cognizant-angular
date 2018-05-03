@@ -39,6 +39,21 @@ Angular 4x-
 
 
 
+---------------------------------------------------------
+
+ANGULAR FLOW
+--------------------
+1. main.ts
+    -> bootstrapModule(AppModule)
+    -> app.module.ts
+            -> [bootstrap]  -> AppComponent
+            -> app.component.ts
+
+-----------------------------------------------------------
+
+
+               
+
 
 
 
