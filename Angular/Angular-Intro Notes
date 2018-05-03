@@ -1,0 +1,47 @@
+Notes
+----------
+
+-> Angular JS  -> Angular JS Version 1x
+    -> On top of Java Script and MVC patterns
+    -> DOM Manupulations are not up to the mark
+
+
+Angular 2x
+-------------
+    -> Arch got changed
+    -> Type Script language -> 1x upto 1.8
+    -> Component based applications
+            -> class
+            -> objects 
+            -> templates
+            -> SPA
+            -> Navigation apps  -> Routers -> 3.6
+            -> http  -> design server API calls
+            -> Forms
+            -> Guards
+            -> UNIT tesing
+
+
+Angular 4x-
+    -> Small and Faster application
+    -> View Engine size is reduced
+    -> Animation Package  -> @angular/core
+    -> NgIf and Ngfor coding improvents
+    -> Introduced ngTemplates
+    -> Introduced 'AS' keyword in the place of 'let' keyword
+    -> New Pipes for title cases -> Firsts letter upper | lowercase
+    -> Http request is simplifid 
+    -> Apps testing Simplified
+    -> new email validation added in the place of RegEx
+    -> Enhancements in Router Package
+    -> TypeScipt from version 1.8 to 2.1 and above
+    -> DOM manipulation with a concept Shadow DOM
+
+
+
+
+
+
+
+
+
