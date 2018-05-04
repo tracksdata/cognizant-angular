@@ -1,0 +1,7 @@
+Angular Binding
+--------------------
+
+1. {{  }}  -> String interpolation -> component property values visible here
+2. [ ]     -> property Binding
+3. ( )     -> event Binding
+4. [ ( )]  -> two way Binding -> Put Banana in the box 
