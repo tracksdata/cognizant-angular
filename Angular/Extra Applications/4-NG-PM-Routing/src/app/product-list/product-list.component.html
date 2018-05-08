@@ -1,0 +1,30 @@
+
+
+<div class="panel panel-default">
+	<div class="panel-heading">All Products</div>
+	<div class="panel-body">
+		 <div class="alert alert-danger" *ngIf="products.length===0">
+		 	No Products
+		 </div> 	
+		 <table class="table table-bordered table-condensed" *ngIf="products.length!==0">
+			<tbody>
+				<tr *ngFor="let product of products">
+					<td><a [routerLink]="['view',product.id]">{{product.name}}</a></td>
+					<td>{{product.price|currency:'INR'}}</td>
+					<td>{{product.description}}</td>
+					<td><a [routerLink]="['edit',product.id]" class="glyphicon glyphicon-edit"></a></td>
+					<td><a href (click)="deleteItem(product.id,$event)" class="glyphicon glyphicon-trash"></a></td>
+				</tr>
+			</tbody>
+		</table>
+		<hr/>
+		<router-outlet></router-outlet>
+		<!-- 
+			<p-dataTable [value]="products">
+				<p-column field="name" header="Name"></p-column>
+			    <p-column field="price" header="Price"></p-column>
+			    <p-column field="description" header="Description"></p-column>
+			</p-dataTable>
+		 -->
+	</div>
+</div>

@@ -1,0 +1,9 @@
+<div class="jumbotron">
+
+  <h1 *ngIf="user"> {{user.name}}</h1>
+  <h1 *ngIf="!user"> No user </h1>
+  <hr/>
+
+  <button class="btn btn-danger" (click)="goBack()">go back</button>
+
+</div>

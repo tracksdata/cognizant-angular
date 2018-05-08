@@ -1,0 +1,15 @@
+<div class="row">
+
+  <h1> All Users </h1>  
+  <div class="alert alert-danger" *ngIf="users.length===0">
+    No Users
+  </div>
+
+  <div class="col-sm-4" *ngFor="let user of users">
+    <div class="profile-card alert alert-info" [routerLink]="['/about',user.userName]">
+      <img [src]="user.avatar" class="img-responsive img-circle">
+      <h2>{{ user.name }}</h2>
+      <p><a href="https://twitter.com/{{ user.username }}">{{ user.userName }}</a></p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+
+
+<div class="container">
+
+	<div class="page-header"><a [routerLink]="['']">NG - PM - Routing</a></div>
+
+	<div class="row">
+		<div class="col-sm-3 col-md-3">
+			<ul class="nav stacked-nav">
+				<li><a [routerLink]="['all']">View All</a></li>
+				<li><a [routerLink]="['new']">Add New</a></li>
+			</ul>
+		</div>
+		<div class="col-sm-9 col-md-9">
+			<router-outlet></router-outlet>
+		</div>
+	</div>
+
+</div>
