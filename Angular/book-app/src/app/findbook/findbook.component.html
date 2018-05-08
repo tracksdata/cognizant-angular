@@ -1,0 +1,28 @@
+<div>
+<form>
+  <input name="id"  placeholder="Book ID" #s1> <br>
+  <button (click)="findBook(s1.value)">Find Book</button>
+</form>
+</div>
+
+<hr/>
+<div [hidden]='!findResults'>
+
+<table border="1">
+    <tr>
+    <th>Book ID</th>
+    <th>Book Name</th>
+    <th>Author</th>
+    </tr>
+    
+    <tr>
+        <td>{{book.id}}</td>
+        <td>{{book.title}}</td>
+        <td>{{book.author}}</td>
+    </tr>
+    
+    </table>
+    
+    
+
+</div>

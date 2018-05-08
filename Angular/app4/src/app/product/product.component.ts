@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Product } from '../product';
-import { PRODUCTS } from '../products';
 import { ProductService } from './productservice';
 
 @Component({
@@ -20,7 +19,7 @@ products:Product[];
 
   ngOnInit() {
 
-    this.getProducts();
+   this.getProducts();
     //this.products=PRODUCTS;
   }
 

@@ -1,20 +1,16 @@
 
+<div class='container card'>
 
-<div class='container'>
-
-<h1>Products List</h1>
-<table class="table-striped">
-<tr>
-  <th>Product Id</th>
-  <th>Product Name</th>
-</tr>
-
-<tr *ngFor="let prod of products">
-  <td>{{prod.id}}</td>
-  <td>{{prod.name}}</td>
-</tr>
-</table>
-
+    <div class="card-body">
+        <h5 class="card-title">Product Info</h5>
+        <h3 class="card-text" *ngFor="let prod of products">
+         {{prod.prodName}} <br>
+         Price : {{prod.price}} <br>
+         Info: {{prod.description}}
+        
+        </h3>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
 
 </div>
 
